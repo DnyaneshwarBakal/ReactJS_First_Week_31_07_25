@@ -1,0 +1,14 @@
+ /* src/index.css */
+
+body {
+  margin: 0; /* Removes default browser margin */
+  background-color: #f0f2f5; /* Set the background color for the whole page */
+  font-family: 'Poppins', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* Horizontally centers the child */
+  align-items: center;   /* Vertically centers the child */
+}

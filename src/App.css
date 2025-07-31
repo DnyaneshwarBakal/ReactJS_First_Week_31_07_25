@@ -1,0 +1,64 @@
+ /* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.counter-container {
+  text-align: center;
+}
+
+.header-title {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.count-display {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.increment-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.decrement-button {
+  background-color: #f44336;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.edit-text {
+  color: #666;
+  font-size: 0.9rem;
+}
